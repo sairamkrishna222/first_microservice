@@ -1,5 +1,5 @@
 FROM openjdk:8
 EXPOSE 8080
-COPY /target/hello-world.jar hello-world.jar
-ENTRYPOINT ["java","-jar","/hello-world.jar"]
+COPY /target/movie-service.jar movie-service.jar
+ENTRYPOINT ["java","-jar","/movie-service.jar"]
 
